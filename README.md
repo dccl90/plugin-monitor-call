@@ -14,7 +14,7 @@ Ref: https://www.twilio.com/console/functions/configure
 
 Deploy V1 Function via the console and set the path to monitor-call
 
-Update the runtimeDomain variable in MonitorCallPlugin.js file with your Twilio V1 runtime domain.
+Update the runtimeDomain variable in MonitorCallPlugin.js file with your Twilio V1 runtime domain (example: color-animal-number.twil.io).
 
 Make sure you have [Node.js](https://nodejs.org) as well as [`npm`](https://npmjs.com) installed.
 

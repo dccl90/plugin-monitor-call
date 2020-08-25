@@ -20,7 +20,7 @@ export default class MonitorCallPlugin extends FlexPlugin {
    */
   init(flex, manager) {
     this.registerReducers(manager);
-    const runtimeDomain = 'crimson-octopus-2455.twil.io'
+    const runtimeDomain = 'YOUR_RUNTIME_DOMAIN'
 
     flex.Actions.replaceAction("MonitorCall", (payload, original) => {
       

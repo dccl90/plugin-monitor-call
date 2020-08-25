@@ -7,7 +7,9 @@ Twilio Flex Plugins allow you to customize the appearance and behavior of [Twili
 Update the runtime domain
 
 Add CALLER_ID to your Twilio Functions V1 environment variables 
+
 Ref: https://www.twilio.com/console/functions/configure
+
 *The Caller ID must be a Twilio numbers or verified caller id that belongs to your account.
 
 Deploy V1 Function via the console and set the path to monitor-call

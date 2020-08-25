@@ -11,7 +11,7 @@ exports.handler = function(context, event, callback) {
      .participants
      .create({
          to: event.workerIdentity,
-         from : "+61409260337",
+         from : context.CALLER_ID,
          muted: true
      })
      .then(participant => {
